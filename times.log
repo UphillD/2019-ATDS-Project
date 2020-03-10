@@ -1,0 +1,35 @@
+Q1:
+  mapReduce_csv
+      real	7m44.272s
+      user	0m17.656s
+      sys	0m1.716s
+  sql_csv
+      real	2m5.984s
+      user	0m25.620s
+      sys	0m1.384s
+  parquet
+      real	1m53.711s
+      user	0m16.496s
+      sys	0m0.964s
+sql_parquet
+      real	1m39.008s
+      user	0m24.900s
+      sys	0m1.300s
+
+Q2:
+  mapReduce_csv
+      real	37m6.314s
+      user	0m21.384s
+      sys	0m2.120s
+  sql_csv
+      real	6m21.704s
+      user	0m27.696s
+      sys	0m1.540s
+  parquet
+      real	0m43.320s
+      user	0m15.752s
+      sys	0m0.848s
+  sql_parquet
+      real	6m43.454s
+      user	0m29.324s
+      sys	0m1.676s
